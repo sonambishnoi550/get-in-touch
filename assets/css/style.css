@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.heading {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: left;
+    color: #1E0E62;
+    padding-bottom: 25px;
+}
+
+.card {
+    /* width: 368.5px;
+    height: 308.5px;
+    margin-left: 215px; */
+}
+
+/* padding classes */
+.p-50 {
+    padding: 50px;
+}
+
+/* padding classes */
+
+.page {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #A1A1B0;
+    padding-top: 25px;
+    padding-bottom: 36px;
+}
+
+.tel {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #1E0E62;
+    padding-bottom: 15px;
+}
+
+.mail {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    padding-bottom: 51px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #EBEAED;
+}
+
+/* .card1 {
+    width: 370px;
+    height: 335px;
+} */
+
+.heading1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    color: #1E0E62;
+    padding-bottom: 25px;
+    padding-top: 47px;
+    
+}
+
+.page1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #A1A1B0;
+    padding-bottom: 42px;
+}
+
+/* .mapBox {
+    min-height: 230px;
+} */
+
+.map{
+    height: 230px;
+}
+
+/* .bg-color {
+    background-color: #EBEAED;
+} */
+form {
+    background-color: #F9F9FA;
+}
+
+label[for="mail"],
+label[for="message"],
+label[for="name"] {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 6px;
+
+}
+
+input[placeholder="Your email"] {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #A1A1B0;
+    background-color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea[id="message"] {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #A1A1B0;
+    border-radius: 10px;
+    border: 2px solid #EBEAED;
+    max-width: 370px;
+    min-height: 170px;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 35px;
+}
+
+input[placeholder="Your name"] {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 100px;
+    color: #A1A1B0;
+    border: 2px solid #EBEAED;
+    padding: 12px 24px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #2FDAC5;
+    background-color: #2FDAC5;
+    border-radius: 50px;
+    padding: 12px 23px;
+}
+.col-12{
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+@media (min-width:992px){
+    .col-lg-5{
+        width: 41.66%;
+            padding-left: 12px;
+            padding-right: 12px;
+    }
+    .mb-lg-0{
+      margin-bottom: 0;
+    }
+}
